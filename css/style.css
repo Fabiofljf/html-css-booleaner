@@ -1,5 +1,4 @@
 * {
-    width: 750px;
     margin: 0;
     padding: 0;
     border: 0;
@@ -7,21 +6,16 @@
 }
 
 body{
+    width: 100%;
     padding: 5px;
 }
 
 /* Inizio header */
 
-#container-pattern{
+#container{
     width: 100%;
     height: 100px;
     background: rgba(78,160,255,255);
-}
-
-/* #container-pattern img{
-    width: 200px;
-    height: 100px;
-    background-repeat: repeat;
 }
 
 #logo{
@@ -29,7 +23,7 @@ body{
     height: 100px;
     padding: 5px;
     margin-top: 10px;
-} */
+}
 
 #smalltext{
     color: #a2a2a2;
@@ -40,38 +34,58 @@ body{
 #image-tim img{
     margin-top: 20px;;
     width: 48%;
-    height: 275px;
+    height: 550px;
 }
 
 .didascalie{
-    font-size: 10px;
+    font-size: 12px;
 }
 
-.text{
-    margin-top: 15px;
+.firsttext{
+    margin-top: 50px;
 }
 
-.text ul{
-    margin: 10px;
+.ol-text ul{
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
 /* tabella */
 #table{
-    margin-top: 35px;
+    width: 100%;
 }
+
+
 /* fine tabella */
 
 #spacetext{
-    margin-top: 35px;
-}
-
-#primarigha{
-    background: #20a9e5;
+    margin-top: 50px;
 }
 
 /* Inizio footer */
 
-.imagefooter img{
-    width: 250px;
-    height: 200px;
+/* .imagefooter img{
+    width: 450px;
+    height: 400px;
+} */
+
+.img-footer1{
+    margin-top: 10px;
+    width: 450px;
+    height: 400px;
+    border: 1px solid black;
 }
+
+#img1 {
+    background-image: url("/img/monitor.jpg");
+    height: 400px;
+    width: 450px;
+    
+  }
+
+#img1 {
+    background-image: url("/img/graph.jpg");
+    height: 400px;
+    width: 450px;
+    
+  }
