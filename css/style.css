@@ -39,4 +39,24 @@ body{
     width: 48%;
     height: 275px;
 }
+
+.didascalie{
+    font-size: 10px;
+}
+
+.text{
+    margin-top: 15px;
+}
+
+.text ul{
+    margin: 10px;
+}
+
+#table{
+    margin-top: 35px;
+}
+
+#primarigha{
+    background: #20a9e5;
+}
 /* Inizio footer */
