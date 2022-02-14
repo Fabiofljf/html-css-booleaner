@@ -71,17 +71,14 @@ body{
     margin-top: 10px;
     width: 250px;
     height: 200px;
-    border: 1px solid black;
 }
 
 #img1 {
-    background-image: url("/img/monitor.jpg");
-    width: 250px;
-    height: 200px;
+    background-image: url('/Users/fabiolaforesta/Desktop/Boolean/Classe60/html-css-booleaner/img/monitor.jpg');
+    height: 100%;
   }
 
-#img1 {
-    background-image: url("/img/graph.jpg");
-    width: 250px;
-    height: 200px;
+#img2 {
+    background-image: url("/Users/fabiolaforesta/Desktop/Boolean/Classe60/html-css-booleaner/img/graph.jpg");
+    height: 100%;
   }
