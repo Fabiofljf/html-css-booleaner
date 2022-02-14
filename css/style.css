@@ -31,11 +31,14 @@ body{
     margin-top: 10px;
 } */
 
+#smalltext{
+    color: #a2a2a2;
+}
 
 /* Inizio main */
 
 #image-tim img{
-    margin-top: 15px;;
+    margin-top: 20px;;
     width: 48%;
     height: 275px;
 }
@@ -52,11 +55,23 @@ body{
     margin: 10px;
 }
 
+/* tabella */
 #table{
+    margin-top: 35px;
+}
+/* fine tabella */
+
+#spacetext{
     margin-top: 35px;
 }
 
 #primarigha{
     background: #20a9e5;
 }
+
 /* Inizio footer */
+
+.imagefooter img{
+    width: 250px;
+    height: 200px;
+}
