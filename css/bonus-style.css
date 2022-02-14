@@ -6,8 +6,9 @@
 }
 
 body{
-    width: 100%;
+    width: 750px;
     padding: 5px;
+    margin: 0 auto;
 }
 
 /* Inizio header */
@@ -19,10 +20,10 @@ body{
 }
 
 #logo{
-    width: 150px;
-    height: 100px;
-    padding: 5px;
-    margin-top: 10px;
+        width: 120px;
+        height: 70px;
+        padding: 5px;
+        margin-top: 15px;
 }
 
 #smalltext{
@@ -34,7 +35,7 @@ body{
 #image-tim img{
     margin-top: 20px;;
     width: 48%;
-    height: 550px;
+    height: 275px;
 }
 
 .didascalie{
@@ -42,43 +43,45 @@ body{
 }
 
 .firsttext{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .ol-text ul{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 20px;
 }
 
 /* tabella */
 #table{
-    width: 100%;
+    margin-top: 35px;
 }
-
-
 /* fine tabella */
 
 #spacetext{
-    margin-top: 50px;
+    margin-top: 35px;
+}
+
+#primarigha{
+    background: #20a9e5;
 }
 
 /* Inizio footer */
 
 .img-footer1{
     margin-top: 10px;
-    width: 450px;
-    height: 400px;
+    width: 250px;
+    height: 200px;
     border: 1px solid black;
 }
 
 #img1 {
     background-image: url("/img/monitor.jpg");
-    height: 400px;
-    width: 450px;
+    width: 250px;
+    height: 200px;
   }
 
 #img1 {
     background-image: url("/img/graph.jpg");
-    height: 400px;
-    width: 450px;
+    width: 250px;
+    height: 200px;
   }
