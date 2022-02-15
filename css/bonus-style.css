@@ -19,6 +19,13 @@ body{
     background: rgba(78,160,255,255);
 }
 
+#pattern{
+    background-image: url('/Users/fabiolaforesta/Desktop/Boolean/Classe60/html-css-booleaner/img/pattern.png');
+    width: 200px;
+    height: 10px;
+    background-repeat: repeat;
+}
+
 #logo{
         width: 120px;
         height: 70px;
@@ -54,6 +61,7 @@ body{
 /* tabella */
 #table{
     margin-top: 35px;
+    border-collapse: collapse;
 }
 /* fine tabella */
 
@@ -74,11 +82,11 @@ body{
 }
 
 #img1 {
-    background-image: url('/Users/fabiolaforesta/Desktop/Boolean/Classe60/html-css-booleaner/img/monitor.jpg');
+    background-image: url('../img/monitor.jpg');
     height: 100%;
   }
 
 #img2 {
-    background-image: url("/Users/fabiolaforesta/Desktop/Boolean/Classe60/html-css-booleaner/img/graph.jpg");
+    background-image: url("../img/graph.jpg");
     height: 100%;
   }
